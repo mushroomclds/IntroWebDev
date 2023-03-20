@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+    <title>this is the title</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Contact Me</h1>
+        </header>
+        <nav>
+            <p><a href="4_addingTablesFormsLists.html">Home</a></p>
+        </nav>
+        <section>
+            <article>
+                <h2>Information Request</h2>
+                <form action="4.2_ContactMe.html" method="POST">
+                    Enter First Name: <p><input type="text" name="firstName" required></p>
+                    Enter Last Name: <p><input type="text" name="lastName" required></p>
+                    Enter Phone Number: <p><input type="text" name="phoneNumber" required></p>
+                    Best Time to Call: <select name="timeToCall">
+                        <option value="default" selected>--Select One--</option>
+                        <option value="Morning">Morning</option>
+                        <option value="Afternoon">Afternoon</option>
+                        <option value="Evening">Evening</option>
+                    </select>
+                    <fieldset>
+                        <legend>I am Interested in </legend><br>
+                        <input type="checkbox" name="choices" value="SoftwareDev">Software Developer <br>
+                        <input type="checkbox" name="choices" value="Web Designer">Web Designer<br>
+                        <input type="checkbox" name="choices" value="Web Developer">Web Developer
+                    </fieldset>
+                    <fieldset>
+                        <legned>I have filled in the client questtionnaire form:</legned><br>
+                        <p><input type="radio" name="filledIn" value="yes">Yes</p>
+                        <p><input type="radio" name="filledIn" value="no">No</p>
+                    </fieldset>
+                    Additional Information
+                    <p><textarea name="description"></textarea></p>
+                    <input type="submit" name="submit" value="Submit">
+                </form>
+            </article>
+        </section>
+        <footer>
+
+        </footer>
+    </main>
+</body>
+
+</html>
