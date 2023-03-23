@@ -21,7 +21,9 @@ for (var n = 1; n <= 7; n++) {
 // Print each number to the JavaScript console.
 console.log("FOR ONE TO TEN");
 // Write your code here:
-
+for (var i = 1; i < 11; ++i) {
+    console.log(i);
+}
 
 
 // 2. COUNT BY TWOS FROM TWO TO TWELVE
@@ -39,7 +41,9 @@ console.log("FOR ONE TO TEN");
 // 12
 console.log("COUNT BY TWOS FROM TWO TO TWELVE");
 // Write your code here:
-
+for (var i = 2; i < 13; i = i + 2) {
+    console.log(i);
+}
 
 
 // 3. COUNT BACKWARD FROM SIX
@@ -58,7 +62,9 @@ console.log("COUNT BY TWOS FROM TWO TO TWELVE");
 // 0
 console.log("COUNT BACKWARD FROM SIX");
 // Write your code here:
-
+for (var i = 6; i > -1; i--) {
+    console.log(i);
+}
 
 
 // 4. SUM EVENS
@@ -77,7 +83,9 @@ var sum = 0;    // We add even numbers to this variable.
 // What happens if you set limit to a negative number?
 console.log("SUM EVENS");
 // Write your code here:
-
+for (var i = 0; i < limit; ++i) {
+    console.log(i);
+}
 console.log("limit = %s, sum = %s", limit, sum);
 
 // 5. FIND A FAVORITE NUMBER

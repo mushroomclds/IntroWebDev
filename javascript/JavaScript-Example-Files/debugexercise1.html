@@ -3,6 +3,11 @@
 
 <head>
   <title>Debugging Exercises</title>
+  <style>
+    #this {
+      border: blue;
+    }
+  </style>
   <script type="text/javascript">
     function printEvenNumbers() {
       for (var i = 0; i <= 10; i++) {
@@ -16,7 +21,12 @@
 
 <body>
   <div id="EvenNumbers"></div>
+  <span id="this">this is text</span>
   <button onclick="printEvenNumbers();" name="btnPrintEvenNumbers">Print Even Numbers</button>
+  <script type="text/javascript">
+    document.getElementById("this").innerText = "this is the new text but actually this is the new text";
+    console.log(text);
+  </script>
 </body>
 <!--
 /**********************************
