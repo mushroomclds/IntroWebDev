@@ -5,6 +5,8 @@
 
 <head>
     <title>this is the title</title>
+    <link href="5.3_styleSheet.css" rel="stylesheet" type="text/css">
+
 </head>
 
 <body>
@@ -14,6 +16,7 @@
         </header>
         <nav>
             <p><a href="5_CSSInline.html">Home</a></p>
+            <div class="clear-float"></div>
         </nav>
         <section>
             <article>
@@ -22,12 +25,13 @@
                     Enter First Name: <p><input type="text" name="firstName" required></p>
                     Enter Last Name: <p><input type="text" name="lastName" required></p>
                     Enter Phone Number: <p><input type="text" name="phoneNumber" required></p>
-                    Best Time to Call: <select name="timeToCall">
+                    Best Time to Call:
+                    <select name="timeToCall">
                         <option value="default" selected>--Select One--</option>
                         <option value="Morning">Morning</option>
                         <option value="Afternoon">Afternoon</option>
                         <option value="Evening">Evening</option>
-                    </select>
+                    </select><br>
                     <fieldset>
                         <legend>I am Interested in </legend><br>
                         <input type="checkbox" name="choices" value="SoftwareDev">Software Developer <br>
@@ -40,7 +44,7 @@
                         <p><input type="radio" name="filledIn" value="no">No</p>
                     </fieldset>
                     Additional Information
-                    <p><textarea name="description"></textarea></p>
+                    <p><textarea name=" "></textarea></p>
                     <input type="submit" name="submit" value="Submit">
                 </form>
             </article>
