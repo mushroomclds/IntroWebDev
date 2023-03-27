@@ -29,3 +29,10 @@ function validate() {
     // Submission causes the page to reload.
     return false;
 }
+
+function resetView() {
+    numberFun.className = "needs-validation";
+    results.style.display = "none";
+    submitButton.innerText = "Calculate";
+    num1.focus();
+}
